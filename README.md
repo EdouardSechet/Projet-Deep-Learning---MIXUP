@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EdouardSechet/Projet-Deep-Learning---MIXUP/blob/main/mixup_edouard_sechet.ipynb)
 # Projet-Deep-Learning---MIXUP
 Ce projet explore l'implémentation et les effets de la technique d'augmentation de données Mixup sur le dataset CIFAR-10.
 
