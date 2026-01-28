@@ -4,10 +4,8 @@ Ce projet explore l'implémentation et les effets de la technique d'augmentation
 # Contexte et théorie
 Le Mixup est une forme d'apprentissage vicinal qui encourage les modèles de réseaux de neurones à se comporter de manière linéaire entre les exemples d'entraînement.
 
-## Articles étudiés : 
-1. mixup: BEYOND EMPIRICAL RISK MINIMIZATION (Zhang et al.)
-2. On the Generalization Effects of Linear Transformations in Data Augmentation (Wu et al.)
-3. Manifold Mixup: Better Representations by Interpolating Hidden States (Verma et al.
+## Références
+Le détail des articles de recherche (Zhang, Wu, Verma) est disponible dans le dossier [`papers/`](./papers/).
 
 # Résultats (CIFAR - 10)
 Comparaison d'un CNN entrainé avec et sans mixup sur 20 et 50 epochs.
