@@ -1,7 +1,30 @@
 # Projet-Deep-Learning---MIXUP
-Edouard Sechet
-# Contenu
-1. Article : mixup: BEYOND EMPIRICAL RISK MINIMIZATION
-2. Article : On the Generalization Effects of Linear Transformations in Data Augmentation
-3. Article : Manifold Mixup: Better Representations by Interpolating Hidden States
-4. Notebook : Utilisation de la technique du Mixup sur le dataset CIFAR-10
+Ce projet explore l'implémentation et les effets de la technique d'augmentation de données Mixup sur le dataset CIFAR-10.
+
+# Contexte et théorie
+Le Mixup est une forme d'apprentissage vicinal qui encourage les modèles de réseaux de neurones à se comporter de manière linéaire entre les exemples d'entraînement.
+
+## Articles étudiés : 
+1. mixup: BEYOND EMPIRICAL RISK MINIMIZATION (Zhang et al.)
+2. On the Generalization Effects of Linear Transformations in Data Augmentation (Wu et al.)
+3. Manifold Mixup: Better Representations by Interpolating Hidden States (Verma et al.
+
+# Résultats (CIFAR - 10)
+Comparaison d'un CNN entrainé avec et sans mixup sur 20 et 50 epochs.
+
+| Configuration | Époques | Précision (Accuracy) |
+| :--- | :---: | :---: |
+| **Standard (ERM)** | 20 | 72.38% |
+| **Mixup ($\alpha=0.2$)** | 20 | **78.46%** |
+| --- | --- | --- | --- |
+| **Standard (ERM)** | 50 | 78.81% |
+| **Mixup ($\alpha=0.2$)** | 50 | **79.41%** |
+
+Note : On observe une convergence plus rapide et une meilleure robustesse face au surapprentissage avec le Mixup.
+
+# Installation 
+\```bash
+git clone https://github.com/EdouardSechet/Projet-Deep-Learning-MIXUP.git
+cd Projet-Deep-Learning-MIXUP
+pip install -r requirements.txt
+\```
