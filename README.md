@@ -5,7 +5,7 @@ Ce projet explore l'implémentation et les effets de la technique d'augmentation
 Le Mixup est une forme d'apprentissage vicinal qui encourage les modèles de réseaux de neurones à se comporter de manière linéaire entre les exemples d'entraînement.
 
 ## Références
-Le détail des articles de recherche (Zhang, Wu, Verma) est disponible dans le dossier [`papers/`](./papers/).
+Le détail des articles de recherche (Zhang, Wu, Verma) est disponible dans le dossier [`papiers/`](./papiers/).
 
 # Résultats (CIFAR - 10)
 Comparaison d'un CNN entrainé avec et sans mixup sur 20 et 50 epochs.
@@ -22,7 +22,11 @@ Note : On observe une convergence plus rapide et une meilleure robustesse face a
 
 # Installation 
 \```bash
+
 git clone https://github.com/EdouardSechet/Projet-Deep-Learning-MIXUP.git
+
 cd Projet-Deep-Learning-MIXUP
+
 pip install -r requirements.txt
+
 \```
