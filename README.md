@@ -20,13 +20,6 @@ Comparaison d'un CNN entrainé avec et sans mixup sur 20 et 50 epochs.
 
 Note : On observe une convergence plus rapide et une meilleure robustesse face au surapprentissage avec le Mixup.
 
-# Installation 
-\```bash
-
-git clone https://github.com/EdouardSechet/Projet-Deep-Learning-MIXUP.git
-
-cd Projet-Deep-Learning-MIXUP
-
+# Installation des dépendances
+```bash
 pip install -r requirements.txt
-
-\```
